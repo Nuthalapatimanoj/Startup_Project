@@ -1,8 +1,9 @@
 import React from 'react'
+import startup from '../assets/startup.png'
 
 function Hero() {
   return (
-    <img width ="100%" src="https://startuptn.in/images/Banner/Thiruvizha%20Web%20Banner%20(5).png"></img>
+    <img width ="100%" src={startup}></img>
   )
 }
 
